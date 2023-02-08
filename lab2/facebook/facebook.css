@@ -1,0 +1,219 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow-y: scroll;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+div {
+    display: block;
+    font-family: inherit;
+}
+.container{
+    background: #f0f2f5;   
+    width:100%;
+    height: 100%;
+    padding-bottom: 132px;
+    padding-top: 72px;
+    position: relative;
+    outline: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.leftpart{
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column ;
+    align-items: flex-start;
+    padding: 0 0 20px;
+    box-sizing: border-box;
+    margin-right: 0;
+    padding-right: 32px;
+    width: 580px;
+}
+img{
+    height: 106px;
+    border:0;
+}
+h1{
+    color:royalblue;
+    font-size: 80px;
+}
+h2{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+    padding-left: 28px;
+}
+.Rightpart{
+    width: 50%;
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+}
+.loginpage{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    border-radius: 10px;
+    width:396px;
+    height:370px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:15px 0px;
+}
+input, button{
+    width: 350px;
+    height:50px;
+    margin:10px 0px 0;
+    padding:0px 10px ;
+    outline:none;
+    border:1px solid #ccc;
+    color: #1d2129;
+    font-size: 18px;
+    border-radius: 10px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+button[type="submit"]{
+    background-color: #1877f2;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 350px;
+    margin-top: 20px;
+}
+.forgotPws{
+    margin-top: 16px;
+    font-size: 14px;
+    font-family: Helvetica, Arial, sans-serif;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #dadde1;
+    padding-left: 115px;
+    padding-right: 115px;
+}
+p{
+    color:royalblue;
+}
+hr{
+    border:1px solid #ccc;
+    width: 320px;
+    margin:20px 0px;
+}
+.createaccount{
+    text-align: center;
+    background-color:#42b72a;
+    color:white;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 17px;
+}
+.createPage{
+    margin-top: 28px;
+    border-top: none;
+    color: #1c1e21;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding-top: 0;
+}
+.createPage a{
+    color: black;
+    font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#pageFooter {
+    background-color: #fff;
+    color: #737373;
+    margin: 0 auto;
+    width: 980px;
+    display: flex;
+    flex-direction:column;
+}
+#pageFooter a {
+    text-decoration: none;
+    white-space: nowrap;
+}
+.copyright {
+    font-size: 11px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+ul a {
+    color: #8a8d91;
+}
+#contentCurve {
+    border-bottom: 1px solid #dddfe2;
+    font-size: 1px;
+    height: 8px;
+    margin-bottom: 8px;
+    
+}
+#pageFooter .pageFooterLinkList {
+    line-height: 1.6;
+    margin-left: -20px;
+    padding-left: 0;
+}
+a {
+    color: #385898;
+    cursor: pointer;
+    text-decoration: none;
+}   
+ul {
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.listLanguages{
+    padding-top: 8px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+}
+.listLanguages li:first-child {
+    padding-left: 0;
+}
+.listLanguages li{
+    display: inline-block;
+    vertical-align: top; 
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.pageFooterLinkList li{
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 20px;
+}
