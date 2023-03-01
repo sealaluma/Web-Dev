@@ -1,0 +1,9 @@
+<div class="items product-item" [ngClass]="{'hidden': item.hidden}">
+  <a href="{{item.url}}" target="_blank" class="item-desc item-name">{{ item.name }}</a>
+  <img src="{{item.image}}">
+  <p class="item-desc product-info  ">{{ item.description }}</p>
+  <p class="item-desc">Price: {{ item.price.toLocaleString() }}₸</p>
+  <p class="item-desc">Likes: {{ item.likes }}</p>
+  <button class="item-desc" (click)="incrementLikes()">Like</button>
+  <button class="item-desc remove-button" (click)="removeItem()">Remove</button>
+</div>

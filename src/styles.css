@@ -1,0 +1,112 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .welcome{
+    margin-top:15px;
+    margin-bottom: 15px;
+  }
+  /* Set a default font and background color */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+  }
+  
+  /* Center the app container horizontally */
+  .app-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Style the product list */
+  .product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  img{
+    width: 50%;
+    margin: 15px;
+  }
+
+  .item-name{
+    font-size: 1.3em;
+    font-weight: bold; 
+    text-decoration: none;
+    color:#000000;
+  }
+
+  /* Style the product item */
+  .product-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-info {
+    text-align: center;
+  }
+  
+  .product-info h2 {
+    margin-bottom: 10px;
+  }
+  
+  .product-info p {
+    margin-bottom: 5px;
+  }
+  
+  .remove-button {
+    border: none;
+    background-color: transparent;
+    color: #888;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .remove-button:hover {
+    color: #f66;
+  }
+  
+  /* Style the category filter */
+  .category-filter {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .category-filter button {
+    margin: 0 10px;
+    border: none;
+    background-color: white;
+    color: #888;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 20px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .category-filter button:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .category-filter button.active {
+    color: white;
+    background-color: #f66;
+  }
+  
+  
+  
