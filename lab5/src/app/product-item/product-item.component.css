@@ -1,0 +1,15 @@
+.items{
+    padding:4p 6px;
+    border: 1px; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    list-style-type: none
+}
+
+.item-desc{
+    padding-right: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.hidden {
+    display: none;
+}
