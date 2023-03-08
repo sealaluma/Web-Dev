@@ -1,9 +1,0 @@
-<div class="albums"><h2>Albums</h2>
-<ul >
-  <li *ngFor="let album of albums" >
-    <div [ngClass]="{'hidden': album.hidden}"><a routerLink="/albums/{{album.id}}">{{ album.title }}</a>
-    <button (click)="removeAlbum(album)">Remove</button>
-    </div>
-  </li>
-</ul>
-</div>
