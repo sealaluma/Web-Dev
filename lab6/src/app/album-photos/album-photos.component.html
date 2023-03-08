@@ -1,0 +1,7 @@
+<div class="album-photos"><button routerLink="..">Go back</button>
+<h3>Album {{album.id}}</h3>
+<ul>
+    <li *ngFor="let photo of photos ">
+    <img src={{photo.thumbnailUrl}} >
+    </li>
+</ul></div>
